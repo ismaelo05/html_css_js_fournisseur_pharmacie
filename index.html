@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bioforma</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Bienvenue Chez Bioforma</h1>
+        <p>Prèt à passer ta commande!</p>
+      </div>
+
+      <div class="container">
+        <fieldset>
+          <legend>Choix de la catégorie de médicaments que vous voulez </legend>
+
+          <input type="radio" id="cat1" name="cat" value="g">
+          <label for="cat1">Médicaments génériques</label><br>
+
+          <input type="radio" id=cat2 name="cat" value="b">
+          <label for="cat2">Médicaments à base de plantes</label><br>
+
+          <input type="radio" id="cat3" name="cat" value="h" />
+          <label for="cat3">Médicaments homéopathiques</label><br>
+
+          <input type="radio" id="cat4" name="cat" value="s" />
+          <label for="cat4">Médicaments stupéfiants</label><br>
+
+          <input type="radio" id="cat5" name="cat" value="d" />
+          <label for="cat5">Médicaments dérivés du sang</label><br>
+
+          <input type="radio" id="cat6" name="cat" value="c" />
+          <label for="cat6">Contraceptifs</label>
+        </fieldset>
+      </div>
+
+      <div class="container">
+        <button id= 'b' type="button" class="btn btn-primary btn-lg" name="button">Ajouter Médicament</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

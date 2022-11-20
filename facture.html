@@ -12,38 +12,39 @@
     <div class="container">
       <div class="jumbotron">
         <h1>Bienvenue Chez Bioforma</h1>
-        <p>Ajout de médicament!</p>
+        <p>Voici votre Facture</p>
       </div>
       <div class="container">
-        <form>
+        <form class="" action="" method="post">
 
           <table align ='center'>
           <tr>
-            <td align='center'><label for="fn">Nom Scientifique</label></td>
+            <td align='center'><label for="fn">Catégorie : </label></td>
+            <td id='cat'> </td>
           </tr>
           <tr>
-            <td><input id = "ns" type="text" name="" placeholder="Nom Scientifique" required></td>
+            <td align='center'><label for="fn">Nom Scientifique : </label></td>
+            <td id='ns'> </td>
           </tr>
           <tr>
-            <td align='center'><label for="ln">Nom Commercial</label></td>
+            <td align='center'><label for="ln">Nom Commercial : </label></td>
+            <td id='nc'></td>
           </tr>
           <tr>
-            <td><input id = "nc" type="text" name="" placeholder="Nom Commercial"  required></td>
+            <td align='center'><label for="ln">Quantité : </label></td>
+            <td id="quant"> </td>
           </tr>
           <tr>
-            <td align='center'><label for="ln">Quantité</label></td>
+            <td align='center'><label for="ln">Prix Unitaire : </label></td>
+            <td id="pu"> </td>
           </tr>
           <tr>
-            <td><input id = "quant" type="text" name="" placeholder="Quantité"  required></td>
+            <td align='center'><label for="ln">Prix HT : </label></td>
+            <td id="pht"> </td>
           </tr>
           <tr>
-            <td align='center'><label for="ln">Prix Unitaire: </label></td>
-          </tr>
-          <tr>
-            <td><input id = "pu" type="text" name="" placeholder="Prix Unitaire"  required></td>
-          </tr>
-          <tr>
-            <td align='center'><input id= "sub" type="submit" name="" value="Ajouter!"></td>
+            <td align='center'><label for="ln">Prix  TTC : </label></td>
+            <td id="ptt"> </td>
           </tr>
         </table>
         </form>
